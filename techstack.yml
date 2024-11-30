@@ -1,0 +1,45 @@
+repo_name: a-ghasemi/simpha
+report_id: 9b342c5d0a77aa1858c2af21a8a10076
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:39:46+00:00'
+requested_by: a-ghasemi
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/a-ghasemi/simpha
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/a-ghasemi/simpha
+  detection_source: Repo Metadata
+- name: jenssegers/blade
+  description: The standalone version of Laravel's Blade templating engine for use
+    outside of Laravel
+  package_url: https://packagist.org/jenssegers/blade
+  version: 1.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/a-ghasemi/simpha/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Armin Ghasemi
+  last_updated_on: 2020-06-04 12:41:48.000000000 Z
